@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# entornos
+.venv/
+venv/
+env/
+
+# datos locales de wsws (nunca deben subirse: workspaces, evidencia, credenciales)
+.wsws/
+*.db
+*.db-wal
+*.db-shm
+
+# editores / SO
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,6 @@
+SMB         10.10.10.5      445    DC01             [*] Windows 10 / Server 2019 Build 17763 x64 (name:DC01) (domain:corp.local) (signing:True) (SMBv1:False)
+SMB         10.10.10.40     445    FILES            [*] Windows Server 2012 R2 Standard 9600 x64 (name:FILES) (domain:corp.local) (signing:False) (SMBv1:True)
+SMB         10.10.10.5      445    DC01             [-] corp.local\jdoe:Winter2026! STATUS_LOGON_FAILURE
+SMB         10.10.10.40     445    FILES            [+] corp.local\svc_backup:Backup123! (Pwn3d!)
+SMB         10.10.10.5      445    DC01             [+] corp.local\jperez:Primavera2026
+SMB         10.10.10.40     445    FILES            Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::

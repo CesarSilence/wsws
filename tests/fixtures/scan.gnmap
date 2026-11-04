@@ -1,0 +1,2 @@
+Host: 10.10.10.40 (files.corp.local)	Status: Up
+Host: 10.10.10.40 (files.corp.local)	Ports: 21/open/tcp//ftp//vsftpd 2.3.4/, 445/open/tcp//microsoft-ds///, 139/closed/tcp//netbios-ssn///	Ignored State: closed (997)

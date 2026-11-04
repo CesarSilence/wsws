@@ -1,0 +1,41 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-19 15:00 -03
+Nmap scan report for dc01.corp.local (10.10.10.5)
+Host is up (0.0010s latency).
+Not shown: 990 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain        Simple DNS Plus
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2026-10-19 18:00:00Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: corp.local0., Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info:
+|   Target_Name: CORP
+|   NetBIOS_Computer_Name: DC01
+|_  Product_Version: 10.0.17763
+MAC Address: 00:50:56:AA:BB:CC (VMware)
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-vuln-ms17-010:
+|   VULNERABLE:
+|   Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2017-0143
+|     Risk factor: HIGH
+|_      A critical remote code execution vulnerability exists in Microsoft SMBv1
+|_smb2-time: 2026-10-19T18:00:01
+
+Nmap scan report for 10.10.10.20
+Host is up (0.0012s latency).
+PORT   STATE  SERVICE VERSION
+22/tcp open   ssh     OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey:
+|   2048 aa:bb:cc (RSA)
+|_  256 dd:ee:ff (ECDSA)
+80/tcp open   http    Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+|_http-title: Intranet Login
+443/tcp closed https
+Nmap scan report for 10.10.10.99 [host down]
+
+Nmap done: 3 IP addresses (2 hosts up) scanned in 12.34 seconds

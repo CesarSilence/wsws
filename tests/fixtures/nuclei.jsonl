@@ -1,0 +1,2 @@
+{"template-id":"jenkins-script-console","info":{"name":"Jenkins Script Console - Unauthenticated","severity":"critical","classification":{"cve-id":null}},"type":"http","host":"https://web01.corp.local","matched-at":"https://web01.corp.local/script","ip":"10.10.10.30","port":"443"}
+{"template-id":"CVE-2020-1938","info":{"name":"Apache Tomcat AJP Ghostcat","severity":"high","classification":{"cve-id":["cve-2020-1938"]}},"type":"network","host":"10.10.10.30:8009","matched-at":"10.10.10.30:8009","ip":"10.10.10.30"}

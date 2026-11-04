@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wsws"
+description = "WorkSpace With Steroids: workspace de pentest fuera de Metasploit"
+requires-python = ">=3.9"
+dynamic = ["version"]
+dependencies = []
+
+[project.scripts]
+wsws = "wsws.cli:main"
+
+[tool.setuptools]
+packages = ["wsws", "wsws.validate", "wsws.validate.validators", "wsws.validate.net"]
+
+[tool.setuptools.dynamic]
+version = {attr = "wsws.__version__"}

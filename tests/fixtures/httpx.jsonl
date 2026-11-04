@@ -1,0 +1,2 @@
+{"timestamp":"2026-10-19T15:10:00-03:00","port":"443","url":"https://web01.corp.local","input":"web01.corp.local","title":"Dashboard [Jenkins]","scheme":"https","webserver":"nginx/1.18.0","host":"10.10.10.30","status_code":200,"tech":["Jenkins:2.300","Nginx:1.18.0","Java"],"failed":false}
+{"timestamp":"2026-10-19T15:10:01-03:00","port":"80","url":"http://portal.corp.local","input":"portal.corp.local","title":"Portal Clientes","scheme":"http","webserver":"IIS/10.0","host":"10.10.10.50","status_code":302,"tech":["IIS:10.0"],"failed":false}
